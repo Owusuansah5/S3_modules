@@ -26,6 +26,7 @@ resource "aws_dynamodb_table" "my_dynamo" {
 # }
 
 */
+##main.tf
 
  #Create an S3 Bucket
 resource "aws_s3_bucket" "my_mobucket" {

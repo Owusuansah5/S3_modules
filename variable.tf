@@ -3,12 +3,13 @@
 variable "s3_bucket_name" {
   description = "The name of the S3 bucket"
   type        = string
+  default = "my_module_bucket"
 }
 
 variable "dynamodb_table_name" {
   description = "The name of the DynamoDB table"
   type        = string
-  default = "my_module_bucket"
+  default = "my_module_dynamo"
 }
 
 variable "dynamodb_billing_mode" {
